@@ -30,7 +30,7 @@
 		},
 		"themes": {
 			"rct2": {
-				"css": ["https://gist.githubusercontent.com/poopki2018/9920cff1a0cc3ea43f08d92dacdfd26b/raw/cd4d092e8e7a784c71eed1dc73a1684f624c23cc/noeul_rct.css"],
+				"css": ["https://gistcdn.githack.com/poopki2018/9920cff1a0cc3ea43f08d92dacdfd26b/raw/cd4d092e8e7a784c71eed1dc73a1684f624c23cc/noeul_rct.css"],
 				"js": [],
 				"image": {
 					"streamer": "https://github.com/poopki2018/chatassistx/raw/master/img/default/b_broadcaster.png",
