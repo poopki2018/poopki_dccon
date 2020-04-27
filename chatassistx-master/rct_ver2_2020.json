@@ -9,7 +9,7 @@
 		"enableTwitchEmoticon": true,
 		"TwitchEmoticonsize": "1.0",
 		"streamer": {
-			"twitch": "유노을",
+			"twitch": "",
 			"kakaopot": "",
 			"youtube": ""
 		},
@@ -30,7 +30,7 @@
 		},
 		"themes": {
 			"rct2": {
-				"css": ["http://poopki.ipdisk.co.kr:8000/list/HDD1/neoul_dccon_config/nas_noeul_rct_ver2_2020.css"],
+				"css": ["https://raw.githubusercontent.com/poopki2018/poopki_dccon/master/chatassistx-master/rct_ver2_2020.css"],
 				"js": [],
 				"image": {
 					"streamer": "https://github.com/poopki2018/chatassistx/raw/master/img/default/b_broadcaster.png",
@@ -43,7 +43,7 @@
 		"dccon": {
 			"use": true,
 			"config": {
-				"address": "http://poopki.ipdisk.co.kr:8000/list/HDD1/neoul_dccon_config/nas_noeul_dccon.json",
+				"address": "https://raw.githubusercontent.com/poopki2018/poopki_dccon/master/chatassistx-master/rct_ver2_2020.json",
 				"twitch": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/global.json",
 				"twitch_sub": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/sub.json"
 			}
@@ -76,10 +76,10 @@
 		"JSAssist": {
 			"use": true,
 			"config": {
-				"oauth": "xg0gwac8op74vm1lc1n0ojd8e3qsid",
+				"oauth": "6h9bp5nvluwodcb4wc5fy3tlfe9ytu",
 				"do_not_use_tapic": false,
 				"do_not_use_jsassist": true,
-				"channelname": "dangdang61"
+				"channelname": "poopki2018"
 			}
 		},
 		"mixer": {
