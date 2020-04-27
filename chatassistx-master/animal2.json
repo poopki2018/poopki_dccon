@@ -43,7 +43,7 @@
 		"dccon": {
 			"use": true,
 			"config": {
-				"address": "https://gistcdn.githack.com/poopki2018/bcad8c502e20d439cb847c748595239a/raw/c373b3be0ee5e8fbbab3f07721131b351ddf0335/noeul_dccon.json",
+				"address": "https://raw.githubusercontent.com/poopki2018/poopki_dccon/master/chatassistx-master/dccon.json",
 				"twitch": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/global.json",
 				"twitch_sub": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/sub.json"
 			}
