@@ -1,4 +1,4 @@
-﻿{
+{
 	"config": {
 		"preset": "default",
 		"theme": "rct2",
@@ -17,7 +17,7 @@
 			"platformIcon": true,
 			"platform": "all",
 			"animation": "fade",
-			"chatFade": 600,
+			"chatFade": 10,
 			"font": "Jeju Gothic",
 			"fontUsernameSize": 14,
 			"fontUsernameColor": "255, 255, 255",
@@ -30,8 +30,7 @@
 		},
 		"themes": {
 			"rct2": {
-				//Convert address using https://raw.githack.com/
-				"css": ["https://rawcdn.githack.com/poopki2018/poopki_dccon/485c3946be47e4827ad62b00f873c9b924aa330c/chatassistx-master/rct_ver2_2020.css"],
+				"css": ["https://gistcdn.githack.com/poopki2018/9920cff1a0cc3ea43f08d92dacdfd26b/raw/170ad7b9c945cb89f7deb8578c13f9a8167b44d3/noeul_rct.css"],
 				"js": [],
 				"image": {
 					"streamer": "https://github.com/poopki2018/chatassistx/raw/master/img/default/b_broadcaster.png",
@@ -44,7 +43,7 @@
 		"dccon": {
 			"use": true,
 			"config": {
-				"address": "https://poopki2018.github.io/chatassistx/dccon.json",
+				"address": "https://gistcdn.githack.com/poopki2018/bcad8c502e20d439cb847c748595239a/raw/c373b3be0ee5e8fbbab3f07721131b351ddf0335/noeul_dccon.json",
 				"twitch": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/global.json",
 				"twitch_sub": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/sub.json"
 			}
