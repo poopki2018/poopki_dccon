@@ -44,7 +44,7 @@
 		"dccon": {
 			"use": true,
 			"config": {
-				"address": "https://raw.githubusercontent.com/poopki2018/ChatAssistX-Client/master/dccon.json",
+				"address": "https://poopki2018.github.io/chatassistx/dccon.json",
 				"twitch": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/global.json",
 				"twitch_sub": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/sub.json"
 			}
