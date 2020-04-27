@@ -1,0 +1,92 @@
+{
+	"config": {
+		"preset": "default",
+		"theme": "rct2",
+		"allowExternalSource": false,
+		"allowEmoticon": true,
+		"ignoreMQEmoticon": true,
+		"ignoreNickname": "",
+		"enableTwitchEmoticon": true,
+		"TwitchEmoticonsize": "1.0",
+		"streamer": {
+			"twitch": "롱쨩",
+			"kakaopot": "",
+			"youtube": "아롱몬"
+		},
+		"chat": {
+			"platformIcon": true,
+			"platform": "all",
+			"animation": "fade",
+			"chatFade": 6000,
+			"font": "Jeju Gothic",
+			"fontUsernameSize": 12,
+			"fontUsernameColor": "255, 255, 255",
+			"fontChatSize": 13,
+			"fontChatColor": "255, 255, 255",
+			"backgroundColor": "255, 255, 255",
+			"backgroundAlpha": 0,
+			"chatBackgroundColor": "200, 200, 200",
+			"chatBackgroundAlpha": 25
+		},
+		"themes": {
+			"rct2": {
+				"css": ["https://gistcdn.githack.com/poopki2018/adbdb555326bf197a12791fefb0937c2/raw/402f3c55ac4edbcaee2a71d2693b4078726b66e2/rct2.css"],
+				"js": [],
+				"image": {
+					"streamer": "https://github.com/poopki2018/chatassistx/raw/master/img/default/b_broadcaster.png",
+					"moderator": ""
+				}
+			}
+		}
+	},
+	"plugins": {
+		"dccon": {
+			"use": true,
+			"config": {
+				"address": "https://poopki2018.github.io/chatassistx/dccon.json",
+				"twitch": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/global.json",
+				"twitch_sub": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/sub.json"
+			}
+		},
+		"style": {
+			"use": true
+		},
+		"replace" : {
+			"use": true,
+			"config": {
+				"replace_list": {
+					"바꿀말1": "바꿔질말1",
+					"바꿀말2": "바꿔질말2"
+				}
+			}
+		},
+		"block" : {
+			"use": true,
+			"config": {
+				"block_list": {
+					"나쁜말1": "keyword",
+					"나쁜닉네임1": "nickname",
+					"나쁜말2": "keyword",
+					"나쁜닉네임2": "nickname"
+				}
+			}
+		}
+	},
+	"provider": {
+		"JSAssist": {
+			"use": true,
+			"config": {
+				"oauth": "hcz3p5qz4tzzrm01wu0hlctc3rt34w",
+				"do_not_use_tapic": false,
+				"do_not_use_jsassist": true,
+				"channelname": "kwldnjs95"
+			}
+		},
+		"mixer": {
+			"use": false,
+			"config": {
+				"channelid": 164900
+			}
+		}
+	}
+}
