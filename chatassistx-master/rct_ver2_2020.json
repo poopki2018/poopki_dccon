@@ -30,6 +30,7 @@
 		},
 		"themes": {
 			"rct2": {
+				//Convert address using https://raw.githack.com/
 				"css": ["https://rawcdn.githack.com/poopki2018/poopki_dccon/485c3946be47e4827ad62b00f873c9b924aa330c/chatassistx-master/rct_ver2_2020.css"],
 				"js": [],
 				"image": {
