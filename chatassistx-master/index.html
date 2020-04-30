@@ -28,13 +28,10 @@
 <body>
 	<script id="chat-template" type="text/x-handlebars-template">
 		<div class="chat_div" id="chat_{{num}}">
-			<span class="chat_platform_{{platform}}"></span>
-			<span class="chat_text_nickname">
-				{{{nickname}}}
-			</span>
-			<div class="chat_text_message">
+			<dialogue>
+				<span slot="character">{{{nickname}}}</span>
 				{{{message}}}
-			</div>
+			</dialogue>
 		</div>
 	</script>
 	<script id="chat-template-sticky" type="text/x-handlebars-template">
