@@ -1,0 +1,92 @@
+{
+	"config": {
+		"preset": "default",
+		"theme": "rct2",
+		"allowExternalSource": false,
+		"allowEmoticon": true,
+		"ignoreMQEmoticon": true,
+		"ignoreNickname": "",
+		"enableTwitchEmoticon": true,
+		"TwitchEmoticonsize": "1.0",
+		"streamer": {
+			"twitch": "킹왕짱풉키",
+			"kakaopot": "",
+			"youtube": ""
+		},
+		"chat": {
+			"platformIcon": true,
+			"platform": "all",
+			"animation": "fade",
+			"chatFade": 10,
+			"font": "Jeju Gothic",
+			"fontUsernameSize": 14,
+			"fontUsernameColor": "255, 255, 255",
+			"fontChatSize": 16,
+			"fontChatColor": "255, 255, 255",
+			"backgroundColor": "255, 255, 255",
+			"backgroundAlpha": 0,
+			"chatBackgroundColor": "200, 200, 200",
+			"chatBackgroundAlpha": 25
+		},
+		"themes": {
+			"rct2": {
+				"css": ["https://gistcdn.githack.com/poopki2018/c5a594bfb4f26ffbfd52f63ef9ff2ac3/raw/8de5e3c4bb3cb985fafa0c19eeff0063659e0b62/rct_2020.css"],
+				"js": [],
+				"image": {
+					"streamer": "https://github.com/poopki2018/chatassistx/raw/master/img/default/b_broadcaster.png",
+					"moderator": ""
+				}
+			}
+		}
+	},
+	"plugins": {
+		"dccon": {
+			"use": true,
+			"config": {
+				"address": "https://raw.githubusercontent.com/poopki2018/poopki_dccon/master/chatassistx-master/dccon2.json",
+				"twitch": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/global.json",
+				"twitch_sub": "https://raw.githubusercontent.com/poopki2018/chatassistx/master/sub.json"
+			}
+		},
+		"style": {
+			"use": true
+		},
+		"replace" : {
+			"use": true,
+			"config": {
+				"replace_list": {
+					"바꿀말1": "바꿔질말1",
+					"바꿀말2": "바꿔질말2"
+				}
+			}
+		},
+		"block" : {
+			"use": true,
+			"config": {
+				"block_list": {
+					"나쁜말1": "keyword",
+					"나쁜닉네임1": "nickname",
+					"나쁜말2": "keyword",
+					"나쁜닉네임2": "nickname"
+				}
+			}
+		}
+	},
+	"provider": {
+		"JSAssist": {
+			"use": true,
+			"config": {
+				"oauth": "nlyaw57p8y0r1ya45ryp17k0ya8pvj",
+				"do_not_use_tapic": false,
+				"do_not_use_jsassist": true,
+				"channelname": "poopki2018"
+			}
+		},
+		"mixer": {
+			"use": false,
+			"config": {
+				"channelid": 164900
+			}
+		}
+	}
+}
