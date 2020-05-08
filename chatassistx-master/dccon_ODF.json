@@ -2,6 +2,10 @@
 	"dccons": [{
 		"keywords": ["벌집"],
 		"tags": ["동물의숲"],
+		"path": "https://raw.githubusercontent.com/poopki2018/poopki_dccon/master/chatassistx-master/img/dccon/bass.png"
+	},{
+		"keywords": ["벌집"],
+		"tags": ["동물의숲"],
 		"path": "https://raw.githubusercontent.com/poopki2018/poopki_dccon/master/chatassistx-master/img/dccon/bee1.png"
 	},{
 		"keywords": ["벌"],
